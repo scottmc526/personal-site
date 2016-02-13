@@ -69,3 +69,17 @@ a {
   text-decoration: none;
   color: white;
 }
+.info {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+
+  color: white;
+}
+.contactInfo {
+  /*width: 98.76vw;*/
+  width: 80vw;
+  height: 100vh;
+  margin-top: 1%;
+  background-color: #282c34;
+  padding: 10%;
+}
