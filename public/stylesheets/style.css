@@ -4,7 +4,7 @@ header {
   text-align: justify;
   letter-spacing: 1px;
   padding: 2em 5%;
-  background: #355e91;
+background: #355e91;
   color: #fff;
   text-transform: uppercase;
   font-family: 'Noto Sans', sans-serif;
@@ -46,7 +46,7 @@ header nav a:last-child {
 
 header h1:hover,
 header nav a:hover {
-  color: #a593a1;
+  color:  #282c34;
   cursor: all-scroll;
 }
 
@@ -72,14 +72,17 @@ a {
 .info {
   margin: 0;
   font-family: 'Noto Sans', sans-serif;
-
   color: white;
 }
 .contactInfo {
   /*width: 98.76vw;*/
-  width: 80vw;
+  width: 78.2vw;
   height: 100vh;
   margin-top: 1%;
   background-color: #282c34;
   padding: 10%;
+}
+
+body {
+  background-color:  #282c34;
 }
