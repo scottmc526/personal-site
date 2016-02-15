@@ -6,7 +6,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  background-color: #26d0fa;
+  background-color: #355e91;
 }
 .nav {
   margin: .5%;
@@ -64,9 +64,11 @@
   color: white;
   border-radius: 3px;
 }
-
+p {
+  color: white;
+}
 
 body {
   margin: 0;
-  /*background-color:  #282c34;*/
+  background-color:  #282c34;
 }
