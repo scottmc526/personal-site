@@ -1,0 +1,31 @@
+@font-face { font-family: forte-line; src: url('Forte-Line.ttf'); }
+p{
+  font-size: 20px;
+  font-family: forte-line;
+  color: white;
+  margin-top: 1%
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1%;
+  margin-top: 1%;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.body {
+  background-color: #a94442;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  margin: 2%;
+  font-family: forte-line;
+  font-size: 15px;
+  cursor: grabbing;
+}
+.navLink:hover {
+  color: #a94442;
+}
