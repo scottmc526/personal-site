@@ -6,7 +6,6 @@ p {
   margin-top: 1%;
 }
 .title {
-  font-family: forte-line;
   color: white;
 }
 
@@ -18,15 +17,14 @@ p {
   justify-content: space-around;
   align-items: flex-start;
 }
-.body {
-  background-color: #a94442;
+#navy {
+  background-color: #1c506c;
 }
 
 .navLink {
   text-decoration: none;
   color: white;
   margin: 2%;
-  font-family: forte-line;
   font-size: 15px;
   cursor: grabbing;
 }
