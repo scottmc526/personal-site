@@ -1,7 +1,7 @@
 @font-face { font-family: forte-line; src: url('Forte-Line.ttf'); }
-p {
+.logo {
   font-size: 20px;
-  font-family: forte-line;
+  font-family: 'Audiowide', cursive;
   color: white;
   margin-top: 1%;
 }
