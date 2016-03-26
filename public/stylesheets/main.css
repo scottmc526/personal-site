@@ -48,11 +48,15 @@
 }
 .project {
   margin-top: 2%;
-  background-color: red;
+  background-color: #a94442;
   width: 90vw;
   height: 30vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+
+.projPic {
   align-self: center;
+  align-items: center;
 }
