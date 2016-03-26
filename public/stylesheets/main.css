@@ -1,4 +1,4 @@
-@font-face { font-family: forte-line; src: url('Forte-Line.ttf'); }
+
 .logo {
   font-size: 20px;
   font-family: 'Audiowide', cursive;
@@ -49,16 +49,30 @@
   align-self: center;
 }
 .project {
-  margin-top: 2%;
-  background-color: #a94442;
-  width: 90vw;
-  height: 30vh;
+  border-bottom: 1px solid black;
+  width: 100vw;
+  height: 30%;
   display: flex;
-  border-radius: 5px;
   overflow-y: scroll;
+}
+.topProj {
+  margin-top: 2%;
+  background: #3b4143;
+}
+.secondProj {
+  background-color: #a94442;
+}
+.thirdProj {
+  background-color: #f9f4e9;
+  color: black;
 }
 
 .projPic {
   align-self: center;
   align-items: center;
+  position: sticky;
+}
+p {
+    font-family: 'Audiowide', cursive;
+    color: #f9f9f7;
 }
