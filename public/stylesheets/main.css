@@ -24,7 +24,7 @@
 .navLink {
   text-decoration: none;
   color: white;
-  margin: 2%;
+  margin-right: 10%;
   font-size: 15px;
   cursor: grabbing;
 }
@@ -54,4 +54,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  align-self: center;
 }
