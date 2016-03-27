@@ -27,6 +27,8 @@
   margin-right: 10%;
   font-size: 15px;
   cursor: grabbing;
+  position: relative;
+  margin-top: 8%;
 }
 .navLink:hover {
   color: #a94442;
@@ -72,7 +74,14 @@
   align-items: center;
   position: sticky;
 }
-p {
-    font-family: 'Audiowide', cursive;
-    color: #f9f9f7;
+.contactInfo {
+  font-family: 'Audiowide', cursive;
+
+}
+
+@media (max-width: 400px) {
+  #navy {
+    height: 20vh;
+    width: 100vw;
+  }
 }
