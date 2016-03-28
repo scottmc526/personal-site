@@ -6,6 +6,10 @@ router.get('/', function(req, res, next) {
   res.render('index');
 });
 
+router.get('/projects', function(req, res){
+  res.render('projects')
+})
+
 router.get('/contact', function(req,res,next){
   res.render('contact')
 })

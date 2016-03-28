@@ -2,17 +2,18 @@ doctype html
 html
   head
     title= "Scott's Site y'all"
-    link(rel='stylesheet', href='/stylesheets/main.css')
     link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
     link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Audiowide"  type='text/css')
+    link(rel='stylesheet', href='/stylesheets/main.css')
+    link(rel='stylesheet', href='/stylesheets/navbar.css')
   body
   block content
-  nav#navy.navbar.navbar-inverse
-    .pull-left
-      a(href="/")
-        p.logo S/C
-      h6.title Full Stack Developer
-    .nav.pull-right
-      a.navLink(href='/') Home
-      a.navLink(href='/contact') Contact
-      a.navLink(href="/about") About
+    header
+      div
+        h1= "< Scott Christensen />"
+      nav
+        a Home
+        a About
+        a Work With Me
+        a Contact
+        a Blog
