@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
 
 header {
   border-top: 2px solid #397da1;
@@ -8,10 +9,10 @@ header {
   background: #1c506c;
   color: #fff;
   text-transform: uppercase;
-  /*font-family: 'Noto Sans', sans-serif;*/
   font-family: 'Audiowide', sans-serif;
 }
 a {
+  font-family: 'Noto Sans', sans-serif;
   color: #fff;
   margin-left: 3%;
 }
@@ -19,14 +20,7 @@ a {
   margin-left: 15%;
 }
 
-header::after {
-  content: '';
-  display: inline-block;
-  width: 100%;
-}
-
 header > div,
-header > div::before,
 header > div h1,
 header nav {
   display: inline-block;
@@ -36,11 +30,6 @@ header nav {
 }
 
 header > div {
-  height: 100%;
-}
-
-header > div::before {
-  content: '';
   height: 100%;
 }
 

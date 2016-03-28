@@ -1,5 +1,5 @@
 body {
-  background-color: #f9f4e9;
+  background-color: #501d0e;
 }
 
 .container {
@@ -49,10 +49,41 @@ body {
   font-family: 'Audiowide', cursive;
 
 }
+.aboutInfo {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+.aboutHeader {
+  width: 90vw;
+  height: 10vh;
+  border-bottom: 2px solid black;
+  margin: auto;
+}
+.aboutTitle {
+  font-family: 'Noto Sans', sans-serif;
+  vertical-align: middle;
+  margin-left: 33%;
+  color: #fff;
+}
+.indexContainer {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-family: 'Cinzel', serif;
+  color: white;
+  margin-top: 25%;
+}
 
-@media (max-width: 400px) {
-  #navy {
-    height: 20vh;
-    width: 100vw;
-  }
+.myPic {
+  height: 25em;
+  width: 15em;
+}
+ul {
+  list-style-type:square;
 }

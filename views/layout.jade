@@ -6,13 +6,16 @@ html
     link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Audiowide"  type='text/css')
     link(rel='stylesheet', href='/stylesheets/main.css')
     link(rel='stylesheet', href='/stylesheets/navbar.css')
+    link(rel='stylesheet', href='/stylesheets/animate.css')
   body
   block content
     header
       div
-        h1= "< Scott Christensen />"
+        a(href='/')
+          h1= "<S/C>"
       nav
-        a.firstA Home
-        a Projects
-        a Contact
+        a.firstA(href='/') Home
+        a(href='/about') About
+        a(href='/projects') Projects
+        a(href='/contact') Contact
         a Resume
