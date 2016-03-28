@@ -8,7 +8,15 @@ header {
   background: #1c506c;
   color: #fff;
   text-transform: uppercase;
-  font-family: 'Noto Sans', sans-serif;
+  /*font-family: 'Noto Sans', sans-serif;*/
+  font-family: 'Audiowide', sans-serif;
+}
+a {
+  color: #fff;
+  margin-left: 3%;
+}
+.firstA {
+  margin-left: 15%;
 }
 
 header::after {
