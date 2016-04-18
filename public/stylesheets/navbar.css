@@ -2,14 +2,17 @@
 @import url(https://fonts.googleapis.com/css?family=Cinzel);
 
 header {
-  border-top: 5px solid #397da1;
   text-align: justify;
   letter-spacing: 1px;
   padding: 2em 5%;
-  background: #1c506c;
+  /*background: #1c506c;*/
   color: #fff;
   text-transform: uppercase;
   font-family: 'Audiowide', sans-serif;
+}
+body {
+  height: 100vh;
+  background-image: linear-gradient(#1c506c, #aa8625);
 }
 a {
   font-family: 'Noto Sans', sans-serif;
@@ -41,7 +44,9 @@ header nav a {
 header nav a:last-child {
   padding-right: 0;
 }
-
+a:hover {
+  text-decoration: none;
+}
 header h1:hover,
 header nav a:hover {
   color: #aa8625;
