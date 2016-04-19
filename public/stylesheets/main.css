@@ -52,8 +52,9 @@
 }
 .aboutInfo {
   font-family: 'Noto Sans', sans-serif;
-  font-size: 1.5em;
-  color: white;
+  font-size: 1.2em;
+  color: #fff;
+  margin: 2%
 }
 .aboutHeader {
   width: 90vw;
