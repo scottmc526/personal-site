@@ -5,10 +5,8 @@ header {
   text-align: justify;
   letter-spacing: 1px;
   padding: 2em 5%;
-  /*background: #1c506c;*/
   color: #fff;
   text-transform: uppercase;
-  font-family: 'Audiowide', sans-serif;
 }
 body {
   height: 100vh;
